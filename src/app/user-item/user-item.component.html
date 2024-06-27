@@ -1,0 +1,10 @@
+<div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">{{ "Name: " + user.firstName +" "+ user.lastName }}</h5>
+      <p class="card-text">{{ "Id: " + user.id }}</p>
+      <p class="card-text">{{ "Age: " + user.age }}</p>
+      <p class="card-text">{{ "Job: "+ user.occupation }}</p>
+      <button class="btn btn-danger" (click)="onDelete()">Delete</button>
+    </div>
+  </div>
+  
